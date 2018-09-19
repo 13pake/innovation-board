@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route, BrowserRouter } from 'react-router-dom';
+import { Switch, Route, Redirect, BrowserRouter } from 'react-router-dom';
 import ThreadDisplay from '../../ThreadDisplay/components/ThreadDisplay';
 import CommentDisplay from '../../CommentDisplay/components/CommentDisplay';
 
@@ -10,13 +10,11 @@ import CommentDisplay from '../../CommentDisplay/components/CommentDisplay';
 // when the pathname is exactly the string "/"
 const Main = () => (
   <main>
-    <BrowserRouter basename="/innovation-board">
-      <Switch>
-        <Route path='/' component={ThreadDisplay} />
-        <Route path='/post/undefined' component={ThreadDisplay} />
-        <Route path='/post/:commentId' component={CommentDisplay} />
-      </Switch>
-    </BrowserRouter>
+    <Switch>
+      <Route exact path='/' component={ThreadDisplay} />
+      <Route exact path='/post/undefined' render={() => (<Redirect to='/' />)} />
+      <Route path='/post/:commentId' component={CommentDisplay} />
+    </Switch>
   </main>
 )
 
