@@ -1,0 +1,30 @@
+.banner {
+  padding: 0.5em;
+  font-size: 1.5em;
+}
+
+.footer { 
+  margin: 1em 20%; 
+  font-size: 0.75em;
+  text-align: center;
+}
+
+.link {
+  margin: 1em 20%;
+  font-weight: bold;
+  color: white;
+}
+
+.link:link {
+  text-decoration: none;
+}
+
+.link:hover { 
+  color: lightgray;
+}
+
+@media(max-width: 900px) {
+  .link {
+    margin: 1em 0em;
+  }
+}

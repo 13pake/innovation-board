@@ -1,0 +1,63 @@
+{ 
+  "posts": {
+    "postID0001": {
+      "author": "Kyle N.",
+      "title": "Connect management with front-line",
+      "body": "It would be awesome to have a way to connect front-line workers in customer service and product dev to product owners and manager. More communication between these two groups will help us deliver better products and deliver happier customers.",
+      "timestamp": 1536793569150,
+      "rating": 4,
+      "status": "completed",
+      "comments": {
+        "commentID0001": true,
+        "commentID0002": true
+      }
+    },
+    "postID0002": {
+      "author": "Trevor R.",
+      "title": "Engineering education",
+      "body": "I would love to see a way to have continuing education for our engineering staff. Perhaps we could sponsor development classes that will help engineers develop new skills, refine skills they already have, or connect with others in the open source community.",
+      "timestamp": 1536607469150,
+      "rating": 7,
+      "status": "",
+      "comments": {
+        "commentID0003": true
+      }
+    },
+    "postID0003": {
+      "author": "Robert B.",
+      "title": "Lack of communication",
+      "body": "There is a lack of collaboration between marketing and sales. It is very hierarchical and frustrating. Marketing keeps a tight hold of messaging and their numbers which allow them to essentially do whatever they want. I think we need to start an initiative that brings balance to our workplace. I haven't been able to speak to our sales guy for 6 weeks now because he's been franctically running around.",
+      "timestamp": 1536601469150,
+      "rating": 5,
+      "status": "inProgress",
+      "comments": {}
+    },
+    "postID0004": {
+      "author": "Josh S.",
+      "title": "Pool table",
+      "body": "I believe productivity as well as innovation would increase in the navigation department if we had access to a pool table. We need something to do whenever we are waiting for the number crunchers to get back to us.",
+      "timestamp": 1536301469150,
+      "rating": 11,
+      "status": "inProgress",
+      "comments": {
+        "commentID0001": true,
+        "commentID0002": true,
+        "commentID0003": true
+      }
+    }
+  },
+  "comments": {
+    "commentID0001": {
+      "author": "John C.",
+      "body": "Great idea! Didn't see that one coming."
+    },
+    "commentID0002": {
+      "author": "Andrew A.",
+      "body": "I like this idea too :)"
+    },
+    "commentID0003": {
+      "author": "Robert B.",
+      "body": "This is idea is so innovative! +1"
+    }
+  }
+}
